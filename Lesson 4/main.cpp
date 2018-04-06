@@ -1,7 +1,11 @@
+// Device ID: xinput list
+// Video Stream: ls -ltrh /dev/video*
+
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
-#define video0 0 //ls -ltrh /dev/video*
+#define webCam 8 
+#define usbCam 17
 
 using namespace cv;
 using namespace std;
@@ -9,7 +13,7 @@ using namespace std;
 int main(int argc, char* argv[])
 {
  //Open the default video camera
- VideoCapture cap(video0);
+ VideoCapture cap(usbCam);
 
  // if not success, exit program
  if (cap.isOpened() == false)  
