@@ -1,0 +1,3 @@
+/home/lauro199471/Documents/OpenCV-Tutorial/Lesson 4/Build/CMakeFiles/rebuild_cache.dir
+/home/lauro199471/Documents/OpenCV-Tutorial/Lesson 4/Build/CMakeFiles/edit_cache.dir
+/home/lauro199471/Documents/OpenCV-Tutorial/Lesson 4/Build/CMakeFiles/main.dir
